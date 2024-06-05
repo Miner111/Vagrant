@@ -35,4 +35,7 @@
         key: "{{ lookup('file', '/home/vagrant/.ssh/authorized_keys') }}"
   roles:
     - geerlingguy.docker
+    - diodonfrost.terraform
+    - deekayen.awscli2
+    - Instalacja_htop_pip_rola
 
